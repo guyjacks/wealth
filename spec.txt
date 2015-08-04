@@ -1,0 +1,52 @@
+Suggestion basis
+- product <-> experiment
+- scientist <-> product
+  - 4 pts - purchase
+  - 3 pts - dropped cart
+  - 2 pts -favorite
+  - 1 pt - search
+- scientist <-> experiment
+- scientist <-> company
+- company <-> product
+- company <-> experiment
+
+
+Suggestions for scientists
+- experiments based on product input
+  - merge
+    - purchase history
+    - collaborative hisotry
+    - business objectives
+      - liquidation
+      - new reagents 
+        - since last purchase
+        - past month
+      - most profitable reagents
+- products based on experiment input
+
+Suggestions for sales team
+- most active scientists that may be interested in new products
+
+Suggestions for reagent acquisition team
+- enter csv of new reagent candidates
+  - return list ordered by predicted utility
+    - which experiments do these reagents target
+    - which scientists conduct such experiments
+    - count the # of scientists and dollars spent Genormous
+    - could do the same for and entire organization of scientists
+  - 
+
+- help team determine which new reagents to focus
+
+- bandit alg for testing not as highly scored suggestions
+
+=================
+gene data
+=================
+
+
+===================
+search scoring
+===================
+- autocomplete
+-- score on popularity
